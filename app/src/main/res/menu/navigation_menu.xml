@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_KhachHang"
+            android:title="@string/navKhachHang"
+            android:icon="@drawable/person"/>
+        <item
+            android:id="@+id/nav_HangHoa"
+            android:title="@string/navHangHoa"
+            android:icon="@drawable/box"/>
+        <item
+            android:id="@+id/nav_DonHang"
+            android:title="@string/navDonHang"
+            android:icon="@drawable/page"/>
+        <item
+            android:id="@+id/nav_ThongKe"
+            android:title="@string/navThongKe"
+            android:icon="@drawable/chart"/>
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item android:id="@+id/nav_ThongTin"
+                android:title="@string/navThongTin"
+                android:icon="@drawable/ic_profile"/>
+            <item android:id="@+id/nav_DangXuat"
+                android:title="@string/navDangXuat"
+                android:icon="@drawable/ic_logout"/>
+        </menu>
+    </item>
+</menu>
